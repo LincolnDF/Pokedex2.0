@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+header {
+    height: 40vh;
+    width: 100vw;
+}
+
+nav > a {
+    display: block;
+    width: 90vw;
+    text-align: center;
+    margin-top: 2px;
+
+}
+
+main {
+
+    width: 100px;
+    max-width: 100px;
+}

@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+}
+
+:root{
+    --primaria: #6c6c6c;
+    --segundaria: #272727;
+    --vidro: #ffffff83;
+    --neon: #ff000079;
+
+    --aço:#5b5b5b; 
+    --agua:#007bff; 
+    --dragao:#00027c; 
+    --eletrico:#e5ff00; 
+    --fada:#ffb0df; 
+    --fantasma:#7000ba; 
+    --fogo:#f49e00; 
+    --gelo:#00e9fa; 
+    --inseto:#00ba1c;
+    --lutador:#c20404; 
+    --normal:#9e9e9e; 
+    --pedra:#63553d; 
+    --planta:#00ff26; 
+    --psiquico:#ff009d; 
+    --sombrio:#2b2b2b; 
+    --terrestre:#5b2f15; 
+    --venenoso:#730082; 
+    --voador:#7bb5b6;  
+    --sombrio: black;
+}
+
+body {
+    background-color: var(--segundaria);
+}
+
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+
+    background-color: var(--primaria);
+    width: 100vw;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 0px 20px 0px #ffffff;
+
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 5em;
+}
+
+header>nav {
+    flex: 0 0 auto;
+    align-self: center;
+    align-content: center;
+    flex-basis: 45px;
+}
+
+nav>a {
+    background-color: var(--segundaria);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px 10px
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    gap: 10px;
+
+    background-color: var(--vidro);
+    margin: auto;
+    padding: 20px;
+    width: 70vw;
+    min-width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px var(--neon);
+
+}
+
+table {
+    width: 65vw;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.799);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+thead{
+    background-color: rgb(115, 115, 115);
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    color: red;
+    box-shadow: 0px 0px 11px 3px var(--neon);
+    transition: .5s;
+}
+
+
+.planta {
+    background-color: var(--planta);
+}
+.venenoso {
+    background-color: var(--venenoso);
+}
+.fogo {
+    background-color: var(--fogo);
+}
+.voador {
+    background-color: var(--voador);
+}
+.agua {
+    background-color: var(--agua);
+}
+.inseto {
+    background-color: var(--inseto);
+}
+.normal {
+    background-color: var(--normal);
+}

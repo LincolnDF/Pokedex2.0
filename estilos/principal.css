@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+
+}
+:root {
+    --primaria: #6c6c6c;
+    --segundaria: #272727;
+    --vidro: #ffffff83;
+    --neon: #ff000079;
+}
+
+body {
+    background-color: var(--segundaria);
+    
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+
+    background-color: var(--primaria);
+    width: 100vw;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 0px 20px 0px #ffffff;
+
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 5em;
+}
+
+header>nav {
+    flex: 0 0 auto;
+    align-self: center;
+    align-content: center;
+    flex-basis: 45px;
+}
+
+nav>a {
+    background-color: var(--segundaria);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px 10px
+}
+
+main {
+    background-color: var(--vidro);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 20px;
+    width: 70vw;
+    min-width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px var(--neon);
+}
+
+div.sobre {
+    text-align: center;    
+}
+.sobre > p {
+    font-family: monospace;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+}
+.sobre > h2 {
+    font-family: monospace;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.sobre > h3 {
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    color: red;
+    box-shadow: 0px 0px 11px 3px var(--neon);
+    transition: .5s;
+}
+
