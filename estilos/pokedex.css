@@ -15,9 +15,9 @@
     --vidro: #ffffff83;
     --neon: #ff000079;
 
-    --aço:#5b5b5b; 
+    --aco:#5b5b5b; 
     --agua:#007bff; 
-    --dragao:#00027c; 
+    --dragao:#790000; 
     --eletrico:#e5ff00; 
     --fada:#ffb0df; 
     --fantasma:#7000ba; 
@@ -151,4 +151,58 @@ nav>a:hover {
 }
 #planta {
     background-color: var(--planta);
+}
+#fogo {
+    background-color: var(--fogo);
+}
+#aco {
+    background-color: var(--aco);
+}
+#agua {
+    background-color: var(--agua);
+}
+#dragao {
+    background-color: var(--dragao);
+}
+#eletrico {
+    background-color: var(--eletrico);
+}
+#fada {
+    background-color: var(--fada);
+}
+#fantasma {
+    background-color: var(--fantasma);
+}
+#gelo {
+    background-color: var(--gelo);
+}
+#inseto {
+    background-color: var(--inseto);
+}
+#lutador {
+    background-color: var(--lutador);
+}
+#normal {
+    background-color: var(--normal);
+}
+#pedra {
+    background-color: var(--pedra);
+}
+#planta {
+    background-color: var(--planta);
+}
+#psiquico {
+    background-color: var(--psiquico);
+}
+#sombrio {
+    background-color: var(--sombrio);
+}
+#terrestre {
+    background-color: var(--terrestre);
+}
+#voador {
+    background-color: var(--voador);
+}
+#sombrio{
+    background-color: var(--sombrio);
 }

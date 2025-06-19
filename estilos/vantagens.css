@@ -118,24 +118,63 @@ nav>a:hover {
 }
 
 
-.planta {
-    background-color: var(--planta);
-}
 .venenoso {
     background-color: var(--venenoso);
+}
+.planta {
+    background-color: var(--planta);
 }
 .fogo {
     background-color: var(--fogo);
 }
-.voador {
-    background-color: var(--voador);
+.aco {
+    background-color: var(--aco);
 }
 .agua {
     background-color: var(--agua);
 }
+.dragao {
+    background-color: var(--dragao);
+}
+.eletrico {
+    background-color: var(--eletrico);
+}
+.fada {
+    background-color: var(--fada);
+}
+.fantasma {
+    background-color: var(--fantasma);
+}
+.gelo {
+    background-color: var(--gelo);
+}
 .inseto {
     background-color: var(--inseto);
 }
+.lutador {
+    background-color: var(--lutador);
+}
 .normal {
     background-color: var(--normal);
+}
+.pedra {
+    background-color: var(--pedra);
+}
+.planta {
+    background-color: var(--planta);
+}
+.psiquico {
+    background-color: var(--psiquico);
+}
+.sombrio {
+    background-color: var(--sombrio);
+}
+.terrestre {
+    background-color: var(--terrestre);
+}
+.voador {
+    background-color: var(--voador);
+}
+.sombrio{
+    background-color: var(--sombrio);
 }
